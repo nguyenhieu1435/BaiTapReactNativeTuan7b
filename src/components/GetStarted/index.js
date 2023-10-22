@@ -28,7 +28,10 @@ export default function GetStarted({navigation}) {
                     POWER BIKE SHOP
                 </Text>
             </View>
-            <Pressable style={{marginTop: 70, alignItems: "center"}}>
+            <Pressable style={{marginTop: 70, alignItems: "center"}}
+            
+                onPress={()=> navigation.navigate("ListProduct")}
+            >
                 <Text style={{width: "95%", textAlign: "center", fontSize: 27
                 , fontWeight: "600", color: "#fff", backgroundColor: "#E94141"
                 , borderRadius: 25, paddingVertical: 10}}>Get Started</Text>
